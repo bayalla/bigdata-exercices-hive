@@ -29,6 +29,9 @@ hadoop fs -put <les fichiers a mettre> /user/bigdata/ontime
 
 ## Création de la table Hive
 
+	cd /data/bigdata-exercices-mapreduce
+	git pull
+	./downloadexercices2.sh
     cd /data/bigdata-exercices-hive
 	hive -f import.q
 
