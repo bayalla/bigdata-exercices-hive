@@ -21,14 +21,18 @@ Found 12 items
 -rw-r--r--   3 bigdata supergroup  185449053 2014-03-04 23:36 /user/bigdata/ontime/On_Time_On_Time_Performance_2013_9.tsv
 ``` 
 
-Si vous ne les avez pas, exécutez le script (FIXME)
+Si vous ne les avez pas, allez chercher les fichiers sur R:\H14N\INF-O17 gr.000001\documents. Vous devez monter un lecteur réseau avec l'adresse de votre machine (avec l'adresse \\<adresse IP>\data dans l'explorateur windows) puis y extraire les fichiers. Finalement, vous devez copier les fichiers sur HDFS à l'aide de la commande
+
+``` 
+hadoop fs -put <les fichiers a mettre> /user/bigdata/ontime
+``` 
 
 ## Création de la table Hive
 
-    cd /data/FIXME
+    cd /data/bigdata-exercices-hive
 	hive -f import.q
 
-Vous pouvez voir le contenu du fichier qui importe les données. FIXME
+Vous pouvez voir le contenu du fichier qui importe les données à https://github.com/jfim/bigdata-exercices-hive/blob/master/create.q
 
 ## Activation de Apache Hue
 
