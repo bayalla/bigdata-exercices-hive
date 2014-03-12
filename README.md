@@ -54,6 +54,8 @@ Voir instructions en classe.
 
 ## Questions avec le nouvel ensemble de données
 
+Donnees: http://registry.faa.gov/database/AR032014.zip
+
 - Quel est le fabriquant de l'avion ayant le plus volé en 2013 (ex: Boeing, Airbus, etc.)
 - Est-ce qu'il y a une différence entre les retards et les annulations de vol par manufacturier?
 - Est-ce qu'il y a une différence de vitesse entre les divers types de moteurs d'avion? Quel est la vitesse moyenne de chaque type de moteur?
